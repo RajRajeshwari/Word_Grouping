@@ -49,6 +49,8 @@ Additionally:
 		sudo apt-get install python-pip  
 	6.2.2 Install dynet using pip, as it was not available in conda
 		/home/...path to python/anaconda2/bin/python2.7 -m pip install dynet
+		which python (to display the path where you need to install dynet)
+			eg: $HOME/anaconda3/envs/python2.7/bin/python -m pip install dynet
 	6.2.3 Download the models for parser	
 		git clone https://bitbucket.org/irshadbhat/nsdp-cs-models/src/c775772ec71639907771603c3071afe79e1382d9/PANINI/HI/PARSER
 	6.2.4 Unzip using bunzip command:
@@ -83,6 +85,7 @@ Additionally:
 
 	Go to Word_Grouping folder 
 	open the terminal from the folder and run:
+		source activate python2.7
 		sh Parse_Generator.sh $1 $2
 			instead of $1 and $2 enter the following parameters:
 			$1 -> $HOME/tmp_anu_dir/tmp/test_tmp/2.1/E_sentence
