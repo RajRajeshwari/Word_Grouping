@@ -29,8 +29,10 @@ Additionally:
 	
 #STEP 2:: Installation of Irshad's Hindi Parser #########################################################################
 
-1. Setup the path in bash for csnlp, for that copy following line at the enf of ~/.bashrc
-	export hindi_parser=<path...to ...csnlp folder>  [to be on the safer side, do these steps in the Home directory itself]
+1. Setup the path in bash for csnlp, for that copy following line at the end of ~/.bashrc
+[to be on the safer side, do these steps in the Home directory itself]
+	export hindi_parser=<path...to ...csnlp folder>  
+	export hindi_parser=/home/rajrajeshwari/csnlp
 	source ~/.bashrc
 2. create python2.7 conda environment
 	conda create -n python2.7 python=2.7
@@ -96,4 +98,3 @@ ADDITIONAL NOTES:
 		H_sentence will have its Hindi equivalent sentence in WX format
 
 	2. Steps 1 to 3 need to be done only once. Just change the sentence files and run step 4.
-
